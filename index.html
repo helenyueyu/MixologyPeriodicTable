@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <script src="../../js/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <title>Document</title>
+</head>
+<body>
+
+<div id="container-one">
+  <h1>Mixology Periodic Table</h1>
+  <input id="slider" class="slider" type="range" min="0" max="100" value="10" onchange="changeOpacity()">
+  <br>
+  <br>
+  <select id="sort" class="custom-select">
+    <option value="none">None</option>
+    <option value="sortByAlcoholAsc">Alcohol Percentage - Asc</option>
+    <option value="sortByAlcoholDesc">Alcohol Percentage - Desc</option>
+    <option value="sortByAlphabet">Alphabetically</option>
+  </select>
+  <br>
+  <br>
+  <div class="buttons">
+    <button id="Lager">Lager</button>
+    <button id="Cinnamon">Cinnamon</button>
+    <button id="Rum">Rum</button>
+    <button id="Peach">Peach</button>
+    <button id="Cider">Cider</button>
+    <button id="Tomato">Tomato</button>
+    <button id="Lime">Lime</button>
+    <button id="Orange">Orange</button>
+    <button id="Apple">Apple</button>
+    <button id="Beer">Beer</button>
+    <button id="Sweet">Sweet</button>
+    <button id="Lemon">Lemon</button>
+    <button id="Brandy">Brandy</button>
+    <button id="Coffee">Coffee</button>
+    <button id="Mint">Mint</button>
+    <button id="Pineapple">Pineapple</button>
+    <button id="Whiskey">Whiskey</button>
+    <button id="Fruit">Fruit</buttton>
+    <button id="Citrus">Citrus</button>
+    <button id="Blackberry">Blackberry</button>
+    <button id="Almond">Almond</button>
+    <button id="Melon">Melon</button>
+    <button id="Chocolate">Chocolate</button>
+    <button id="Olive">Olive</button>
+    <button id="Gin">Gin</button>
+    <button id="Cola">Cola</button>
+    <button id="Cranberry">Cranberry</button>
+    <button id="Tea">Tea</button>
+    <button id="Spicy">Spicy</button>
+    <button id="Cherry">Cherry</button>
+  </div>
+
+  <br>
+  <button id="Colorful" onclick="createColorfulDrinks();">colorful</button>
+  <button id="Monochrome" onclick="createMonochromaticDrinks();">monochrome</button>
+  <br>
+  <br>
+</div>
+
+
+
+<div id="container-two"></div>
+
+<script src="index.js"></script>
+  <script type="text/javascript">
+  // let children = document.getElementsByClassName('modal');
+  // let childrenAlso = document.getElementsByClassName('myBox');
+  //
+  // for (let i = 0; i < children.length; i++) {
+  //   $(childrenAlso[i]).click(function() {
+  //     if (children[i].style.display == "block") {
+  //       children[i].style.display = "none";
+  //     } else {
+  //       children[i].style.display = "block";
+  //     }
+  //   })
+  // }
+  //
+  // for (let i = 0; i < children.length; i++) {
+  //   $(children[i]).dblclick(function() {
+  //     if (children[i].style.display == "block") {
+  //       children[i].style.display = "none";
+  //     } else {
+  //       children[i].style.display = "block";
+  //     }
+  //   })
+  // }
+  </script>
+
+</body>
+</html>
